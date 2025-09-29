@@ -96,28 +96,32 @@ function App() {
         <h1>
           ✅ Lista de Tareas
         </h1>
-        <ul>
-          <li>
-            <TaskList
-              id={1}
-              title="Comprar comestibles"
-              completed={false}
-            />
-          </li>
-          <li>
-            <TaskList
-              id={2}
-              title="Lavar el auto"
-              completed={true}
-            />
-          </li>
-          <li>
-            <TaskList
-              id={3}
-              title="Preparar la presentación"
-              completed={false}
-            />
-          </li>
+        <ul className="task-list">
+          <TaskList
+            id={1}
+            title="Comprar comestibles"
+            completed={false}
+          />
+          <TaskList
+            id={2}
+            title="Lavar el auto"
+            completed={true}
+          />
+          <TaskList
+            id={3}
+            title="Preparar la presentación"
+            completed={false}
+          />
+          <TaskList
+            id={4}
+            title="Estudiar React"
+            completed={true}
+          />
+          <TaskList
+            id={5}
+            title="Hacer ejercicio"
+            completed={false}
+          />
         </ul>
       </div>
     </> 

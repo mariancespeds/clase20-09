@@ -23,27 +23,3 @@ function UserCard(props) {
 }
 
 export default UserCard
-
-/*
-.user-card {
-  border: 1px solid #ddd;
-  padding: 15px;
-  border-radius: 8px;
-  margin: 10px;
-}
-
-.user-header {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.online {
-  color: green;
-}
-.offline {
-  color: gray;
-}
-
-
-*/
