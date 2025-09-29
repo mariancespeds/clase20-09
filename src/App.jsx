@@ -14,6 +14,35 @@ function App() {
         age={30}
         isOnline={true}
       />
+      
+      <UserCard
+        name="Maria García"
+        email="maria.garcia@company.com"
+        age={25}
+        isOnline={false}
+      />
+      
+      <UserCard
+        name="Alex Johnson"
+        email="alex.johnson@tech.io"
+        age={28}
+        isOnline={true}
+      />
+      
+      <UserCard
+        name="Sarah Wilson"
+        email="sarah.w@design.studio"
+        age={32}
+        isOnline={false}
+      />
+      
+      <UserCard
+        name="Carlos Rodriguez"
+        email="carlos.r@startup.dev"
+        age={27}
+        isOnline={true}
+      />
+
     </>
   )
 }
