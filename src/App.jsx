@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import UserCard from './components/UserCard.jsx'
 import Producto from './components/Producto.jsx'
+import TaskList from './components/TaskList.jsx'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -90,8 +91,37 @@ function App() {
           category="Libros"
         />
       </div>
-
-    </>
+      {/* Sección de Tareas */}
+      <div>
+        <h1>
+          ✅ Lista de Tareas
+        </h1>
+        <ul>
+          <li>
+            <TaskList
+              id={1}
+              title="Comprar comestibles"
+              completed={false}
+            />
+          </li>
+          <li>
+            <TaskList
+              id={2}
+              title="Lavar el auto"
+              completed={true}
+            />
+          </li>
+          <li>
+            <TaskList
+              id={3}
+              title="Preparar la presentación"
+              completed={false}
+            />
+          </li>
+        </ul>
+      </div>
+    </> 
+    
   )
 }
 
